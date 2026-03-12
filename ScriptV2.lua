@@ -20,7 +20,7 @@ local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 local Camera = game:GetService("Workspace").CurrentCamera
  
--- Check for Drawing API availability
+-- Check for Drawing API available 
 local function API_Check()
     if Drawing == nil then
         return "No"
